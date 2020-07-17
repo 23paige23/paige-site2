@@ -2470,7 +2470,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: brown;
   background-color: #fed136;
   border-color: #fed136;
 }
@@ -6099,7 +6099,8 @@ a.close.disabled {
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
-button.bg-primary:hover,
+
+.bg-primary:hover,
 button.bg-primary:focus {
   background-color: #fec503 !important;
 }
@@ -10077,7 +10078,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #c54d08;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10446,9 +10447,10 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: linear-gradient(to top, rgba(170, 44, 5, 0.692), rgba(90, 16, 2, 0.73)),url("../assets/img/buns.jpg");
+  background-repeat:repeat;
+  background-position:center;
+  background-size: contain;
 }
 section#contact .section-heading {
   color: #fff;
